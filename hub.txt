@@ -1,0 +1,5 @@
+hub hg38_emrbyo_longRNA
+shortLabel hg38_emrbyo_longRNA
+longLabel hg38_preimplantation_emrbyo_longRNA
+genomesFile genomes.txt
+email kai-wei.chang@hotmail.com

@@ -1,0 +1,15 @@
+track hg38_longRNA_embryo
+superTrack on show
+shortLabel hg38_longRNA_embryo
+longLabel GSE190547_hg38_longRNA_embryo
+showSubtrackColorOnUi on
+	
+	track longRNA_embryo_joined_stages
+	parent hg38_longRNA_embryo
+	shortLabel longRNA_joined_stages
+	longLabel longRNA_joined_stages
+	type bigBed
+	bigDataUrl GSE190547_hg38_embryo_transc.bb
+	color 8,8,8
+	visibility dense
+	configurable on
