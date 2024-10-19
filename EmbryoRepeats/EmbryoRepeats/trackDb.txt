@@ -1,0 +1,69 @@
+track EmbryoRepeats 
+superTrack on show
+shortLabel EmbryoRepeats
+longLabel EmbryoRepeats 
+
+	track hICM
+	parent EmbryoRepeats 
+	shortLabel hICM 
+	longLabel hICM_GSM5832888
+	type bigWig
+	visibility full
+	maxHeightPixels 100:40:25
+	configurable on
+	autoScale on
+	alwaysZero on
+	bigDataUrl hICM.bamCoverage.bw
+	color 200,50,0
+
+	track hTE
+	parent EmbryoRepeats 
+	shortLabel hTE 
+	longLabel hTE_GSM5832889
+	type bigWig
+	visibility full
+	maxHeightPixels 100:40:25
+	configurable on
+	autoScale on
+	alwaysZero on
+	bigDataUrl hTE.bamCoverage.bw
+	color 200,50,0
+
+	track hESC-n
+	parent EmbryoRepeats 
+	shortLabel hESC-n 
+	longLabel hESC-n_GSM3738302
+	type bigWig
+	visibility full
+	maxHeightPixels 100:40:25
+	configurable on
+	autoScale on
+	alwaysZero on
+	bigDataUrl hESC-n.bamCoverage.bw
+	color 200,50,0
+
+	track hESC-p
+	parent EmbryoRepeats 
+	shortLabel hESC-p 
+	longLabel hESC-p_GSM5769031
+	type bigWig
+	visibility full
+	maxHeightPixels 100:40:25
+	configurable on
+	autoScale on
+	alwaysZero on
+	bigDataUrl hESC-p.bamCoverage.bw
+	color 200,50,0
+
+	track hESC-n-TSC
+	parent EmbryoRepeats 
+	shortLabel hESC-n-TSC 
+	longLabel hESC-n-TSC_GSM5769028
+	type bigWig
+	visibility full
+	maxHeightPixels 100:40:25
+	configurable on
+	autoScale on
+	alwaysZero on
+	bigDataUrl hESC-n-TSC.bamCoverage.bw
+	color 200,50,0

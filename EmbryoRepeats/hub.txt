@@ -1,0 +1,5 @@
+hub Embryo_Repeats
+shortLabel Embryo_Repeats
+longLabel Embryo_Repeats
+genomesFile genomes.txt
+email kaiwei.chang@ubc.ca

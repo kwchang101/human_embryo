@@ -1,0 +1,2 @@
+genome hs1
+trackDb EmbryoRepeats/trackDb.txt
