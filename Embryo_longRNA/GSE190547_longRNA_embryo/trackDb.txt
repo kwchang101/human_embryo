@@ -8,8 +8,13 @@ showSubtrackColorOnUi on
 	parent hg38_longRNA_embryo
 	shortLabel longRNA_joined_stages
 	longLabel longRNA_joined_stages
-	type bigBed
+	type bigBed 12 +
 	bigDataUrl GSE190547_hg38_embryo_transc.bb
 	color 8,8,8
 	visibility dense
 	configurable on
+	itemRgb on
+	exonArrows on
+	exonNumbers on
+	thickDrawItem on
+	
